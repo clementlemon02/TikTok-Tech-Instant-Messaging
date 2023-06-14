@@ -1,5 +1,3 @@
-https://github.com/weixingp/tiktok-tech-immersion-2023/actions/workflows/test.yml/badge.svg
-
 # Instant Messaging System
 
 This is a demo and template for backend assignment of 2023 TikTok Tech Immersion.
