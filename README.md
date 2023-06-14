@@ -2,6 +2,23 @@ https://github.com/weixingp/tiktok-tech-immersion-2023/actions/workflows/test.ym
 
 # Instant Messaging System
 
+This is a demo and template for backend assignment of 2023 TikTok Tech Immersion.
+
+Installation
+Requirement:
+
+golang 1.18+
+docker
+To install dependency tools:
+
+make pre
+Run
+docker-compose up -d
+Check if it's running:
+
+curl localhost:8080/ping
+
+
 This is a backend implementation of an Instant Messaging (IM) system. The system consists of two services: an HTTP server and an RPC server. It allows users to send and receive messages using the provided APIs.
 
 ## Architecture
@@ -15,7 +32,6 @@ The system follows a client-server architecture with the following components:
 ## Technologies Used
 
 - Programming Language: Go
-- Web Framework: [Specify the framework/library used, if any]
 - Database: Redis
 
 ## API Documentation
